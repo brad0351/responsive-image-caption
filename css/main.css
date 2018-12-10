@@ -31,7 +31,7 @@ p {
   line-height: 1.3em;
 }
 
-img {
+ .img-flex {
   width: 100%;
   display: block;
 }
@@ -53,20 +53,20 @@ div {
 
 @media only screen and (min-width: 400px) {
 
-  section{
+  section {
     position: absolute;
     font-size: 100%;
     line-height: 1.3;
   }
 
-.container {
-  position: relative;
-}
+  .container {
+    position: relative;
+  }
 }
 
 @media only screen and (min-width: 608px) {
 
-  section{
+  section {
     z-index: 10;
     color: #fff;
     background-color: rgba(0, 0, 0, .3);
@@ -78,11 +78,11 @@ div {
     border-radius: 4px;
     width: 20em;
   }
-  }
+}
 
 @media only screen and (min-width: 960px) {
 
-  section{
+  section {
     z-index: 10;
     color: #fff;
     background-color: rgba(0, 0, 0, .3);
@@ -94,20 +94,21 @@ div {
     border-radius: 4px;
     width: 20em;
   }
-  }
-  @media only screen and (min-width: 1140px) {
+}
 
-    section{
-      z-index: 10;
-      color: #fff;
-      background-color: rgba(0, 0, 0, .3);
-      position: absolute;
-      bottom: 10px;
-      right: 10px;
-      font-size: 130%;
-      line-height: 1.5;
-      border-radius: 4px;
-      width: 20em;
-    }
+@media only screen and (min-width: 1140px) {
+
+  section {
+    z-index: 10;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 130%;
+    line-height: 1.5;
+    border-radius: 4px;
+    width: 20em;
+  }
 
 }
